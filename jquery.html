@@ -16,6 +16,7 @@
     <p>jQuery 封装了大量 DOM 操作的方法，极大的提升了开发效率！</p>
     <p class="p">jQuery 的口号是 <span>Write Less Do More!</span></p>
     <p id="p">jQuery 内部对浏览器之间的兼容也做了相关的处理。</p>
+    <div>这是一个大盒子</div>
 
     <!-- <script src="./jquery/jquery-3.6.0.js"></script> -->
     <script src="./jquery/jquery-3.6.0.min.js"></script>
@@ -28,7 +29,7 @@
     </script>
     <script>
         $(window).on('load', function () {
-
+            $('div').css('width', '200px').css('height', '200px').css('border', '1px solid red').css('backgroundColor', 'yellowgreen').css('color', 'deeppink').css('text-align', 'center').css('line-height', '200px')
         })
     </script>
 </body>
